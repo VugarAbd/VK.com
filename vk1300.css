@@ -1,0 +1,243 @@
+@media (max-width:1300px)
+{
+    .headervk{
+        display: flex;
+        max-width: 1290px;
+        height: 50px;
+        flex-direction: row;
+        background-color: #fff;
+        position: fixed;
+        margin: auto;
+        
+        
+    }
+    .container{
+        max-width: 1290px;
+        display: flex;
+        flex-direction: row;
+        background-color: #f0f2f5;
+        align-items: center;
+        justify-content: center;
+        padding-top: 68px;
+        padding-bottom: 36px;
+        margin: auto;
+    
+    }
+
+}
+
+
+
+/*media 976px*/
+
+
+@media (max-width:976px) 
+{
+    .headervk{
+        max-width:750px;
+        display: flex;
+        height: 50px;
+        flex-direction: row;
+        background-color: #fff;
+        position: fixed;
+        margin: auto;
+        
+        
+    }
+    .container{
+        max-width:750px;
+        display: flex;
+        flex-direction: row;
+        background-color: #f0f2f5;
+        padding-top: 68px;
+        padding-bottom: 36px;
+        margin: auto;
+    
+    }
+
+    .container-1{
+        display: none;
+    }
+
+}
+
+
+
+
+/*767px*/
+
+@media (max-width:767px) 
+{
+    .headervk 
+    {
+        max-width:500px;
+        display: flex;
+        height: 50px;
+        flex-direction: row;
+        background-color: #fff;
+        position: fixed;
+        margin: auto;
+        
+        
+    }
+    .box{
+        display: none;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    #input1 {
+        display: none;
+        height: 32px;
+        width: 196px;
+        border-radius: 5px;
+        background-color: #f0f2f5;
+        border-color: #f0f2f5;
+        border: none;
+        padding-left: 32px;
+        outline: none;
+    }
+
+    .switch {
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-family: 'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+    }
+  
+
+
+}
+/* container*/
+
+
+/*
+.mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f0f2f5;
+    padding-top: 1px;
+    padding-bottom: 36px;
+    margin: auto;
+ }
+ .container-2 {
+    max-width: 500px;
+    height: 723.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choose {
+    width: 270px;
+    height: 35px;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 27px;
+}
+.flexx{
+    display: none;
+}
+.vkid {
+    width: 525px;
+    height: 82.8px;
+    background-color: #fff;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin: 18px 0px 15px 0px;
+    text-align: center;
+    color: #818c99;
+    font-size: 14px;
+}
+.box-5 {
+    width: 270px;
+    height: 24;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2px;
+}
+.mvk{
+    display: none;
+}
+.big-box2 {
+    width: 525px;
+    height: 369px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 25px 25px 25px 25px;
+    margin-top: 18px;
+}
+.one-box2 {
+    width: 525px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 25px 25px 25px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.button2{
+   
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.buttonreg #regbt{
+    width: 270px;
+    height: 35px;
+    border-radius: 4px;
+    outline: none;
+    background-color: #4bb34b;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+#regbt:hover{
+    background-color:#71ca71;
+}
+.button3{
+   
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.buttonfb #regfb{
+    width: 270px;
+    height: 35px;
+    border-radius: 4px;
+    outline: none;
+    background-color:#1b6dd1;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+#regfb:hover{
+    background-color:#3782dd;
+}
+.buttonfb #fbico{
+    width: 18px;
+}
+
+   */
